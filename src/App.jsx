@@ -68,7 +68,7 @@ for (i = 0; i < coll.length; i++) {
         </div>
         <div className="navbar">
           <div className="leftnavber">
-            <img src="images/blaa1.svg" style={{height: '39.32389450073242px', width: '122.71342468261719px', borderRadius: '0px', marginTop: '37px'}} />
+            <img src="./images/blaa1.svg" style={{height: '39.32389450073242px', width: '122.71342468261719px', borderRadius: '0px', marginTop: '37px'}} />
             <div className="linksonnavbar">
               <a href="waitinglist.html">About Us</a>
               <a href="waitinglist.html">Services</a>
