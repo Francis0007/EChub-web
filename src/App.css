@@ -303,7 +303,7 @@ span {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
-  background-image: url("images/Mask\ group.png");
+  background-image: url("./images/Maskgroup.png");
   background-repeat: no-repeat;
   background-size: cover;
   height: 700px;
@@ -506,11 +506,16 @@ a{
   width: max-content;
   font-weight: 700;
 }
+@media screen and (min-width: 1200px) {
+  .button10 {
+    display: none;
+  }
+}
 @media screen and (max-width: 767px) {
   .button10 {
-    display: block;
     margin-top: -30px;
-    margin-left: -640px;
+    margin-left: 0px;
+    display: block;
   }
 }
 .button10:hover {
@@ -602,10 +607,10 @@ margin-top: -50px;
 }
 @media screen and (max-width: 767px) {
   .rightsection1 {
-    width: 380px;
+    width: 350px;
     margin-top: -20px;
     height: 250px;
-    margin-left: 70px;
+    margin-left: 30px;
   }
 }
 .imagesrightsection1{
@@ -878,11 +883,11 @@ margin-top: -50px;
 
 /*section3*/
 .section3 {
-  background-image: url("images/Mask\ group.png");
+  background-image: url("./images/Maskgroup.png");
   background-repeat: no-repeat;
   background-size: cover;
   margin-top: -30px;
-  height: 750px;
+  height: 770px;
 }
 @media screen and (max-width: 767px) {
   .section3 {
@@ -1146,6 +1151,12 @@ text-align: center;
   width: 100%;
   background-color: white;
   margin-top: 0px;
+}
+@media screen and (min-width: 1200px) {
+  .section5 {
+   margin-top: -40px;
+   height: 800px;
+  }
 }
 @media screen and (max-width: 767px) {
   .section5 {
