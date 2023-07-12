@@ -9,10 +9,10 @@ const Footer = () => {
 <>
 {/*start of mobile footer*/}
 <footerf>
-          <div className="footercontent1"><br /><br />
+          <div className="footercontent1"><br />
             <h2>Newsletter</h2>
             <form1>
-              <input type="email" placeholder="Type Email Address" /><br /><br /><br />
+              <input type="email" placeholder="Type Email Address" /><br /><br />
               <input type="submit" className="submit" defaultValue="subscribe" />
             </form1>
           </div>

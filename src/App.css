@@ -775,11 +775,10 @@ margin-top: -50px;
 }
 @media screen and (max-width: 767px) {
   .sectionleft2 {
-    margin-top: 0px;
+    margin-top: 20px;
     margin-left: 0px;
     width: 400px;
     font-size: 15px;
-    margin-left: -1040px;
   }
 }
 .textonsection2 {
@@ -1039,8 +1038,7 @@ text-align: center;
   text-align: center;
 }
 .remarks p {
-  font-family: Montserrat;
-  font-size: 16px;
+  font-size: 15px;
   font-weight: 500;
   line-height: 20px;
   letter-spacing: 0em;
@@ -1161,6 +1159,7 @@ text-align: center;
 @media screen and (max-width: 767px) {
   .section5 {
     height: max-content;
+       margin-top: -40px;
   }
 }
 @media screen and (max-width: 767px) {
@@ -1487,6 +1486,7 @@ button7[type="submit"] {
   margin-left: -30px;
   margin-top: 0px;
 }
+@media
 
 .footercontent2 a:hover {
   background-color: #555;

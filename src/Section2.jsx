@@ -139,7 +139,7 @@ const Section2 = () => {
                   From helping with on boarding to execution to sharing best practices, our success team is there every step of the way with 24hrs customer emergency support &amp; Help Desk
                 </p>
               </div>
-            </div></div>
+            </div></div><br />
           <div className="sectionleft2">
             <h2>
               Why top companies prefer<br />

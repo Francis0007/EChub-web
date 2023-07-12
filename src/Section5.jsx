@@ -15,7 +15,7 @@ const Section5 = () => {
             <br />
             <center>
               <div className="formatright2">
-                <div id="faqs-listf" style={{marginTop: '-50px', marginLeft: '2%'}}>
+                <div id="faqs-listf" style={{marginTop: '-50px', marginLeft: '30px'}}>
                   <div className="panelf">
                     <button className="collapsiblef">What services does your company provide?</button>
                     <div className="contentf">
@@ -112,6 +112,7 @@ const Section5 = () => {
                                           </div>
                                         </div></div></div></div></div></div></div></div></div></div></div></div></div></div></center>
             {/*end of mobile view*/}
+
             <div className="formatright2">
               <div className="ques" style={{marginLeft: '160px'}}>
                 <div id="faqs-list">
