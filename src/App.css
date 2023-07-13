@@ -654,7 +654,7 @@ margin-left: -270px;
 .section2 {
   height: 1080px;
   background-color: #ebe6d9;
-  width: 100%;
+  min-width: 300px;
   display: flex;
   justify-content: space-between;
 }
@@ -714,11 +714,11 @@ margin-left: -270px;
 }
 
 .topnav {
+  overflow-x: auto;
   background-color: transparent;
-  display: flex;
- height: max-content;
- overflow-x: auto;
- white-space: nowrap;
+  white-space: nowrap;
+  margin-left: 0px;
+    margin-right: 20px;
 }
 @media screen and (min-width: 1200px) {
   .topnav {
@@ -743,6 +743,7 @@ margin-left: -270px;
   text-align: left;
   letter-spacing: 0em;
   height: 284px;
+
   margin-bottom: 50px;
   white-space: normal;
 }
