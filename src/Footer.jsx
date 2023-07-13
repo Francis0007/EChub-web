@@ -41,7 +41,7 @@ const Footer = () => {
           </div>
           <div className="footercontent33">
               <a>Echubafrica@gmail.com</a><br />
-              <a>08148143284</a><br /><br />
+              <a href='tel:2348148143284'>08148143284</a><br /><br />
               <a>66 Ibukun Olu St, Akoka 102216,<br /> Lagos</a><br />
             </div></div>
           <a className="fa fa-facebook" />
