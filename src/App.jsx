@@ -12,12 +12,28 @@ import blaa1 from './images/blaa1.svg';
 
 function App() {
 
+  function openNav() {
+    document.getElementById("myNav").style.height = "100%";
+  }
+  
+  function closeNav() {
+    document.getElementById("myNav").style.height = "0%";
+  }
+
+
+  function openNav() {
+    document.getElementById("myNav").style.height = "100%";
+  }
+  
+  function closeNav() {
+    document.getElementById("myNav").style.height = "0%";
+  }
   return (
     <>
   <div>
         {/*Navbar*/}
         <div id="myNav" className="overlay">
-          <a href="javascript:void(0)" className="closebtn" onClick="closeNav()">×</a>
+          <a href="javascript:void(0)" className="closebtn" onClick={closeNav}>×</a>
           <div className="overlay-content">
             <a href="waitinglist.html">About Us</a>
             <a href="waitinglist.html">Services</a>
@@ -39,7 +55,7 @@ function App() {
           </div>
           <div className="rightnavbar">
             <a href=" waitinglist.html"><div className="buttononnavbar">Join the team</div></a>
-            <span onClick="openNav()">☰</span>
+            <span onClick={openNav}>☰</span>
           </div>
         </div>
         {/*end of Navbar*/}

@@ -31,13 +31,19 @@ const Footer = () => {
               <a>Plumbering</a><br />
               <a>Electronics &amp; Gadgets</a>
             </div></div>
+            <div className="footercontent23">
           <div className="footercontent4">
             <h2>About Us</h2>
             <a>Who are we</a><br />
             <a>Blogs</a><br />
             <a>Events</a><br />
             <a>Projects</a>
-          </div><br />
+          </div>
+          <div className="footercontent33">
+              <a>Echubafrica@gmail.com</a><br />
+              <a>08148143284</a><br /><br />
+              <a>66 Ibukun Olu St, Akoka 102216,<br /> Lagos</a><br />
+            </div></div>
           <a className="fa fa-facebook" />
           <a className="fa fa-linkedin" />
           <a className="fa fa-twitter" />

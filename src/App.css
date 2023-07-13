@@ -334,13 +334,13 @@ span {
 }
 @media screen and (max-width: 767px) {
   .sectioncontent1 {
-    font-size: 13px;
+    font-size: 5px;
     align-items: center;
     text-align: center;
     line-height: 45px;
     width: 400px;
     margin-left: 0px;
-    margin-top: 120px;
+    margin-top: 180px;
     font-weight: 600;
   }
 }
@@ -354,7 +354,7 @@ span {
 @media screen and (max-width: 767px) {
   .sectioncontent2 {
     align-items: center;
-    margin-top: -60px;
+    margin-top: -230px;
     margin-left: 5%;
     width: 350px;
   }
@@ -367,7 +367,7 @@ text-align: center;
 }
 @media screen and (max-width:767px) {
 .sectioncontent2  h2{
-    font-size: 18px;
+    font-size: 30px;
     margin-top: 30px;
     font-weight: 700;
     margin-left: -15px;
@@ -443,8 +443,8 @@ input[type="search"]:focus {
 }
 @media screen and (max-width: 767px) {
   .textonbottomofhomescreen1 {
-    margin-top: -130px;
-    margin-left: 7%;
+    margin-top: -80px;
+    margin-left: 16%;
     margin-bottom: 0px;
   }
 }
@@ -1416,6 +1416,18 @@ hr {
  line-height: 25px;
  color: white;
 }
+.footercontent33 {
+  display: inline-block;
+ line-height: 10px;
+ color: white;
+}
+@media screen and (max-width:767px) {
+  .footercontent33 {
+    display: inline-block;
+    line-height: 15px;
+    margin-left: 40px;
+  }
+}
 @media screen and (max-width:767px) {
   .footercontent3 {
     display: inline-block;
@@ -1432,6 +1444,11 @@ hr {
 @media screen and (max-width:767px) {
   .footercontent3 a{
     font-size: 12px;
+  }
+}
+@media screen and (max-width:767px) {
+  .footercontent33 a{
+    font-size: 11px;
   }
 }
 .footercontent4 {
@@ -1486,7 +1503,6 @@ button7[type="submit"] {
   margin-left: -30px;
   margin-top: 0px;
 }
-@media
 
 .footercontent2 a:hover {
   background-color: #555;
@@ -1626,4 +1642,9 @@ footerf {
   margin-top: 20px;
   margin-left: 10px;
   color: white;
+}
+@media screen and (max-width: 767px) {
+  .fa-facebook, .fa-instagram, .fa-linkedin, .fa-twitter{
+    margin-left: 30px;
+  }
 }
