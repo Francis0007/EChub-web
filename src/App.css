@@ -718,6 +718,7 @@ margin-left: -270px;
   display: flex;
  height: max-content;
  overflow-x: auto;
+ white-space: nowrap;
 }
 @media screen and (min-width: 1200px) {
   .topnav {
@@ -743,6 +744,7 @@ margin-left: -270px;
   letter-spacing: 0em;
   height: 284px;
   margin-bottom: 50px;
+  white-space: normal;
 }
 @media screen and (max-width: 767px) {
   .topnav a{
