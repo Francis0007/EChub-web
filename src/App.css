@@ -549,7 +549,7 @@ a{
   .section1left {
     margin-top: 70px;
     margin-left: 0px;
-    width: 400px;
+    width: 350px;
     font-size: 16px;
     align-items: center;
     background-color: white;
@@ -714,11 +714,10 @@ margin-left: -270px;
 }
 
 .topnav {
-  overflow-x: auto;
+  overflow: auto;
   background-color: transparent;
   white-space: nowrap;
-  margin-left: 0px;
-    margin-right: 20px;
+  margin-right: 23px;
 }
 @media screen and (min-width: 1200px) {
   .topnav {
@@ -735,16 +734,14 @@ margin-left: -270px;
   }
 }
 .topnav a {
+  display: inline-flex;
   color: black;
   text-decoration: none;
-  font-size: 12px;
-  font-weight: 400;
-  line-height: 14px;
   text-align: left;
-  letter-spacing: 0em;
-  height: 284px;
-
-  margin-bottom: 50px;
+  margin-bottom: 10px;
+  margin-top: 30px;
+  margin-left: 20px;
+  margin-right: 0px;
   white-space: normal;
 }
 @media screen and (max-width: 767px) {

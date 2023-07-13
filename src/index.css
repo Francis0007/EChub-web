@@ -29,6 +29,7 @@ body .topnavvv {
 }
 body {
 display: initial;
+overflow: hidden;
 }
 
 h1 {
