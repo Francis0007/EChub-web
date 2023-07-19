@@ -351,7 +351,7 @@ span {
 .sectioncontent2 {
   color: white;
   float: center;
-  margin-top: -140px;
+  margin-top: -110px;
 }
 @media screen and (max-width: 767px) {
   .sectioncontent2 {
@@ -452,7 +452,7 @@ input[type="search"]:focus {
 }
 .textonbottomofhomescreen {
   display: flex;
-  margin-top: 160px;
+  margin-top: 180px;
   margin-left: 20px;
 }
 @media screen and (max-width: 767px) {
