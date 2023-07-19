@@ -703,11 +703,6 @@ a {
   margin-right: 40px;
   font-size: 79px;
 }
-@media screen and (max-width: 767px) {
-  .section2right{
-    margin-right: 0px;
-  }
-}
 .lastonsection2 {
   font-size: 12px;
   font-weight: 400;
@@ -740,6 +735,7 @@ a {
     overflow-x: auto;
     display: flex;
     height: max-content;
+    margin-right: 0px;
   }
 }
 .topnav a {
