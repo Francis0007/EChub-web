@@ -10,7 +10,7 @@ const Section = () => {
 <>
         {/*section*/}
         <div className="section">
-          <div className="sectioncontent"><br /><br /><br /><br /><br /><br /><br /><br /><br />
+          <div className="sectioncontent"><br /><br /><br /><br /><br /><br /><br /><br />
             <div className="sectioncontent1">
               <h1>
                 The work is on us 

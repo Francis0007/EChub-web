@@ -39,6 +39,7 @@ const Footer = () => {
             <a>Events</a><br />
             <a>Projects</a>
           </div>
+        
           <div className="footercontent33">
               <a>Echubafrica@gmail.com</a><br />
               <a href='tel:2348148143284'>08148143284</a><br /><br />
@@ -48,6 +49,7 @@ const Footer = () => {
           <a className="fa fa-linkedin" />
           <a className="fa fa-twitter" />
           <a className="fa fa-instagram" />
+
         </footerf>
         {/*end of mobile footer*/}
         {/*start of footer*/}

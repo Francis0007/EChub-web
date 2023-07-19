@@ -44,7 +44,7 @@ const Dropdown = styled.div`
   background: black;
   color: white;
   width: 100%;
-  height: max-contenty;
+  height: max-content;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -82,7 +82,7 @@ const Accordion = () => {
               
                 <Wrap onClick={() => toggle(index)} key={index}>
                   <h1>{item.question}</h1>
-                  <span>{clicked === index ? <FiMinus /> : <FiPlus />}</span>
+                  <span1>{clicked === index ? <FiMinus /> : <FiPlus />}</span1>
                 </Wrap>
                 {clicked === index ? (
                   <Dropdown>
