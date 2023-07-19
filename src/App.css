@@ -337,12 +337,12 @@ span {
 @media screen and (max-width: 767px) {
   .sectioncontent1 {
     font-weight: 700;
-    font-size: 12px;
+    font-size: 7px;
     font-weight: 700;
     line-height: 14px;
     letter-spacing: 0em;
     text-align: center;
-    margin-top: 50px;
+    margin-top: 55px;
   }
 }
 .sectioncontent2 {
@@ -366,12 +366,13 @@ text-align: center;
 }
 @media screen and (max-width: 767px) {
   .sectioncontent2 h2 {
-    font-size: 25px;
+    font-size: 27px;
     font-weight: 700;
-    line-height: 29px;
+    line-height: 34px;
     letter-spacing: 0em;
     text-align: center;
-    
+    margin-top: -12px;
+    margin-left: 10px;
   }
 }
 form {
