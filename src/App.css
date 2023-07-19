@@ -222,6 +222,7 @@ span {
 @media screen and (max-width: 767px) {
   .text-wrapper{
     margin-left: 13px;
+    margin-top: 20px;
   }
 }
 .b1 {
@@ -319,7 +320,7 @@ span {
 @media screen and (max-width: 767px) {
   .sectioncontent {
     flex-direction: column;
-    height: 700px;
+    height: 720px;
     width: 100%;
     background-image: url("images/unknown12.svg");
     background-repeat: no-repeat;
@@ -328,29 +329,24 @@ span {
   }
 }
 .sectioncontent1 {
-  font-size: 8px;
-  font-weight: bold;
   color: white;
   height: 140px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: 70px;
   margin-top: 90px;
+  
 }
 @media screen and (max-width: 767px) {
   .sectioncontent1 {
-    font-size: 5px;
-    align-items: center;
+    font-weight: 700;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 14px;
+    letter-spacing: 0em;
     text-align: center;
-    line-height: 45px;
-    margin-left: 0px;
-    margin-top: 10px;
-    font-weight: 600;
+    margin-top: 50px;
   }
 }
 .sectioncontent2 {
   color: white;
-  float: center;
   margin-top: -110px;
 }
 @media screen and (max-width: 767px) {
@@ -362,19 +358,20 @@ span {
   }
 }
 .sectioncontent2 h2 {
-  font-size: 50px;
-  font-weight: 700;
-  text-align: center;
-  line-height: 50px;
+font-size: 60px;
+font-weight: 700;
+line-height: 50px;
+letter-spacing: 0em;
+text-align: center;
 }
 @media screen and (max-width: 767px) {
   .sectioncontent2 h2 {
-    font-size: 30px;
-    margin-top: 30px;
+    font-size: 25px;
     font-weight: 700;
-    margin-left: -15px;
-    line-height: 30px;
-    width: 400px;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: center;
+    
   }
 }
 form {
@@ -452,12 +449,13 @@ input[type="search"]:focus {
 }
 .textonbottomofhomescreen {
   display: flex;
-  margin-top: 180px;
+  margin-top: 140px;
   margin-left: 20px;
 }
 @media screen and (max-width: 767px) {
   .textonbottomofhomescreen {
     flex-direction: column;
+    margin-top: 190px;
   }
 }
 .button1 {
@@ -474,7 +472,7 @@ input[type="search"]:focus {
 @media screen and (max-width: 767px) {
   .button1 {
     margin-top: -30px;
-    margin-left: 60px;
+    margin-left: 65px;
     align-items: center;
   }
 }

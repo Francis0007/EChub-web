@@ -10,7 +10,7 @@ const Section = () => {
 <>
         {/*section*/}
         <div className="section">
-          <div className="sectioncontent"><br /><br /><br /><br /><br /><br /><br /><br /><br />
+          <div className="sectioncontent"><br /><br /><br /><br /><br /><br /><br /><br />
             <div className="sectioncontent1">
               <h1>
                 The work is on us 
@@ -18,7 +18,7 @@ const Section = () => {
               </h1>
             </div>       
             <div className="sectioncontent2">
-              <h2>Tap into a pool of skilled, vetted, tested<br /> and qualified technical talents for your </h2>
+              <h2>Tap into a pool of skilled,<br />  vetted, tested and qualified<br />  technical talents for your </h2>
 
                   <div className="text-wrapper">
                     <div className="box b1" style={{color: '#E6D0C4'}}>Construction Agencies</div>
