@@ -33,13 +33,13 @@ a:hover {
 
 .overlay {
   height: 0%;
-  width: 100%;
+  width: 50%;
   position: fixed;
+  float: right;
+  right: 0;
   z-index: 1;
   top: 0;
-  left: 0;
-  background-color: rgb(0, 0, 0);
-  background-color: rgba(0, 0, 0, 0.9);
+  background-color: white;
   overflow-y: hidden;
   transition: 0.5s;
 }
@@ -59,7 +59,7 @@ a:hover {
   padding: 8px;
   text-decoration: none;
   font-size: 36px;
-  color: #818181;
+  color: black;
   display: block;
   transition: 0.3s;
 }
@@ -68,7 +68,7 @@ a:hover {
 }
 .overlay a:hover,
 .overlay a:focus {
-  color: #f1f1f1;
+  color: gray;
 }
 
 .overlay .closebtn {
