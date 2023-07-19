@@ -665,7 +665,6 @@ a {
   .section2 {
     flex-direction: column;
     height: 1180px;
-    width: 100%;
     align-items: center;
   }
 }
@@ -717,12 +716,6 @@ a {
   }
 }
 
-.topnav {
-  overflow: auto;
-  background-color: transparent;
-  white-space: nowrap;
-  margin-right: 23px;
-}
 @media screen and (min-width: 1200px) {
   .topnav {
     display: none;
@@ -736,6 +729,8 @@ a {
     display: flex;
     height: max-content;
     margin-right: 0px;
+    background-color: transparent;
+    white-space: nowrap;
   }
 }
 .topnav a {
