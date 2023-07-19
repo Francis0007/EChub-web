@@ -665,6 +665,7 @@ a {
   .section2 {
     flex-direction: column;
     height: 1180px;
+    width: 100%;
     align-items: center;
   }
 }
@@ -701,6 +702,11 @@ a {
 .section2right {
   margin-right: 40px;
   font-size: 79px;
+}
+@media screen and (max-width: 767px) {
+  .section2right{
+    margin-right: 0px;
+  }
 }
 .lastonsection2 {
   font-size: 12px;
