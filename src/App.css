@@ -726,7 +726,6 @@ a {
   .topnav {
     margin-top: 30px;
     overflow-x: auto;
-    display: flex;
     height: max-content;
     margin-right: 0px;
     background-color: transparent;
