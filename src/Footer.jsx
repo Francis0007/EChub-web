@@ -42,7 +42,7 @@ const Footer = () => {
         
           <div className="footercontent33">
               <a>Echubafrica@gmail.com</a><br />
-              <a href='tel:2348148143284'>08148143284</a><br /><br />
+              <a href='tel:08148143284'>08148143284</a><br /><br />
               <a>66 Ibukun Olu St, Akoka 102216,<br /> Lagos</a><br />
             </div></div>
           <a className="fa fa-facebook" />
@@ -62,7 +62,7 @@ const Footer = () => {
               <a className="fa fa-twitter" />
               <a className="fa fa-instagram" /></div><br />
               <a style={{marginLeft: '20px',marginTop: '30px'}}>Echubafrica@gmail.com</a><br />
-              <a style={{marginLeft: '20px'}} href='tel:2348148143284'>08148143284</a><br /><br />
+              <a style={{marginLeft: '20px'}} href='tel:08148143284'>08148143284</a><br /><br />
               <a style={{marginLeft: '20px'}}>66 Ibukun Olu St, Akoka 102216, Lagos</a><br />
           </div><hr />
           <div className="rightfooter">
