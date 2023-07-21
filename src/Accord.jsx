@@ -1,10 +1,8 @@
 import React, { useState } from 'react';
-import { Data } from './Data';
-import { mobiledata } from './mobiledata';
+import { Data1 } from './Data1';
 import { IconContext } from 'react-icons';
 import { FiPlus, FiMinus } from 'react-icons/fi';
-import './App.css';
-import Accord from './Accord.jsx';
+import './App.css'
 
 const Accordion = () => {
   const [clicked, setClicked] = useState(false);
@@ -20,12 +18,12 @@ const Accordion = () => {
 
  return (
  <> 
- <h1 style={{ marginTop: '30px', fontSize: '28px', textAlign: 'center'}}>Frequently Asked Questions</h1>
- <div className='accordtop1'>
+ <div className='accordtop'>
     <IconContext.Provider value={{ color: 'black', size: '16px' }}>
       <div className='accordionSection'>
         <div className='container'>
-          {Data.map((item, index) => {
+        <h1 style={{marginTop: '-250px', fontSize: '20px', textAlign: 'center'}}></h1>
+          {Data1.map((item, index) => {
             return (
               <>
               
@@ -45,33 +43,6 @@ const Accordion = () => {
       </div>
     </IconContext.Provider>
     </div>
-
-
-    <div className='accordmobile1'>
-    <IconContext.Provider value={{ color: 'black', size: '16px' }}>
-      <div className='accordionSection'>
-        <div className='container'>
-          {mobiledata.map((item, index) => {
-            return (
-              <>
-              
-                <div className="wrap" onClick={() => toggle(index)} key={index} >
-                  <h1>{item.question}</h1>
-                  <span1>{clicked === index ? <FiMinus /> : <FiPlus />}</span1>
-                </div>
-                {clicked === index ? (
-                  <div className='dropdownn'>
-                    <p>{item.answer}</p>
-                  </div>
-                ) : null}
-              </>
-            );
-          })}
-        </div>
-      </div>
-    </IconContext.Provider>
-    </div>
-    <Accord />
     </>
   );
 };

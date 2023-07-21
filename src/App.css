@@ -33,15 +33,20 @@ a:hover {
 
 .overlay {
   height: 0%;
-  width: 70%;
+  width: 50%;
   position: fixed;
   float: right;
   right: 0;
   z-index: 1;
   top: 0;
   background-color: white;
-  overflow-y: hidden;
+  overflow-x: hidden;
   transition: 0.5s;
+}
+@media screen and (max-width: 767px) {
+  .overlay{
+    width: 70%;
+  }
 }
 
 .overlay-content {
@@ -865,7 +870,7 @@ a {
 }
 .textonsection {
   display: flex;
-  margin-left: 40px;
+  margin-left: 10px;
   margin-top: 20px;
 }
 @media screen and (max-width: 767px) {
@@ -1108,6 +1113,9 @@ a {
 .boardoftrusteesleft {
   color: white;
 }
+.boardoftrusteesleft h1{
+  font-size: 30px;
+}
 @media screen and (max-width: 767px) {
   .boardoftrusteesleft h1 {
     font-size: 20px;
@@ -1177,82 +1185,86 @@ a {
     margin-bottom: 0px;
   }
 }
-.ques {
-  display: flex;
-  width: 100%;
-  justify-content: space-between;
-  margin-bottom: 10px;
+.accordionSection { 
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  height: 300px;
+  background: #fff;
+  width: 500px;
 }
-@media screen and (max-width: 767px) {
-  .ques {
+@media screen and (min-width: 1200px) {
+  .accordmobile1{
     display: none;
   }
 }
-/*top of mobile view*/
-.fffff {
-  display: none;
-}
 @media screen and (max-width: 767px) {
-  .fffff {
-    display: block;
+  .accordionSection{
+    height: 800px;
+    width: 100%;
+    margin-left: -10px;
   }
 }
-.question-section {
-  background: transparent;
-  border: 1px solid lightgray;
-  border-radius: 8px;
-  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
-    rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
-  cursor: pointer;
-  width: 92vw;
+.container{
+  position: absolute;
+  height: 200px
+;
 }
-
-.question-align {
+.accordtop{
+float: right;
+margin-right: 40px;
+margin-top: 20px;
+}
+.accordtop1{
+  margin-left: 40px;
+  margin-top: 80px;
+}
+@media screen and (max-width: 767px) {
+  .accordtop{
+    display: none;
+  }
+}
+@media screen and (max-width: 767px) {
+  .accordtop1{
+    display: none;
+  }
+}
+.wrap {
+background-color: white;
+  color: black;
+  display: flex;
+  justify-content: space-between;
   align-items: center;
-  display: flex;
-  min-height: 10px;
-  text-align: left;
-}
-
-.question-align h4 {
-  margin-left: 8px;
-}
-
-.question-styling {
-  font-size: 17px;
   width: 100%;
-}
-
-.question-icon {
-  background: none;
-  border: none;
-  color: #1b6aae;
   cursor: pointer;
-  font-size: 22px;
-  margin-left: auto;
-  margin-right: 8px;
 }
+  h1 {
+    padding: 10px;
+    font-size: 15px;
+    margin-left:20px;
+  }
 
-.rotate {
-  transform: rotate(45deg);
-}
+  span {
+    margin-right: 15px;
+  }
 
-.answer-divider {
-  border-top: 1px solid lightgray;
-}
-
-.answer {
-  margin-left: 8px;
-  margin-right: 8px;
-  max-height: 0;
-  overflow: hidden;
-  transition: max-height 0.6s ease;
-  text-align: left;
-}
-.linkforsection5 {
+.dropdownn{
+  background: black;
+  color: white;
+  height: max-content;
   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
+  p {
+    font-size: 12px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+  }
 /*end of section5*/
 
 /*footer*/

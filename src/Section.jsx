@@ -18,7 +18,7 @@ const Section = () => {
               </h1>
             </div>       
             <div className="sectioncontent2">
-              <h2>Tap into a pool of skilled,<br />  vetted, tested and qualified<br />  technical talents for your </h2>
+              <h2>Tap into a pool of skilled,<br />  vetted, tested and qualified<br />  technical talents for </h2>
 
                   <div className="text-wrapper">
                     <div className="box b1" style={{color: '#E6D0C4'}}>Construction Agencies</div>

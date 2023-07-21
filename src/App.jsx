@@ -54,7 +54,7 @@ function App() {
             </div>
           </div>
           <div className="rightnavbar">
-            <a href=" waitinglist.html"><div className="buttononnavbar">Join the team</div></a>
+            <a href=" waitinglist.html"><div className="buttononnavbar">Get Started</div></a>
             <span onClick={openNav}>☰</span>
           </div>
         </div>
