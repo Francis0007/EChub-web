@@ -43,7 +43,6 @@ background-color: white;
 const Dropdown = styled.div`
   background: black;
   color: white;
-  width: 100%;
   height: max-content;
   display: flex;
   flex-direction: column;

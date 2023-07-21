@@ -117,6 +117,7 @@ span {
   position: fixed;
   top: 0;
   justify-content: space-around;
+  z-index: 1;
 }
 @media screen and (max-width: 767px) {
   .navbar {
@@ -180,6 +181,7 @@ span {
   border-radius: 50%;
   width: 64px;
   height: 64px;
+  z-index: 1;
 
   /* Primary Color 1 (Brand colour) */
 
