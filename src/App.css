@@ -1202,7 +1202,7 @@ a {
 @media screen and (max-width: 767px) {
   .accordionSection{
     height: 800px;
-    width: 100%;
+    width: 400px;
     margin-left: -10px;
   }
 }
