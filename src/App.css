@@ -359,7 +359,7 @@ span {
 @media screen and (max-width: 767px) {
   .sectioncontent2 {
     align-items: center;
-    margin-top: -110px;
+    margin-top: -120px;
     margin-left: 5%;
     width: 350px;
   }
@@ -1194,16 +1194,9 @@ a {
   background: #fff;
   width: 500px;
 }
-@media screen and (min-width: 1200px) {
-  .accordmobile1{
-    display: none;
-  }
-}
 @media screen and (max-width: 767px) {
   .accordionSection{
-    height: 800px;
-    width: 400px;
-    margin-left: -10px;
+    height: 700px;
   }
 }
 .container{
