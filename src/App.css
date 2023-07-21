@@ -1192,11 +1192,16 @@ a {
   position: relative;
   height: 300px;
   background: #fff;
-  width: 500px;
+  width: 400px;
 }
 @media screen and (max-width: 767px) {
   .accordionSection{
     height: 700px;
+  }
+}
+@media screen and (min-width:1200px) {
+  .accordmobile1{
+    display: none;
   }
 }
 .container{
