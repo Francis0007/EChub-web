@@ -1209,7 +1209,7 @@ a {
 }
 @media screen and (max-width: 767px) {
   .topofaccord{
-    margin-left: 0px;
+   text-align: center;
   }
 }
 .container{
