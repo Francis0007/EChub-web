@@ -1190,22 +1190,40 @@ a {
   align-items: center;
   justify-content: center;
   position: relative;
-  height: 700px;
+  height: 300px;
   background: #fff;
-  width: 500px;
+  width: 400px;
+}
+@media screen and (max-width: 767px) {
+  .accordionSection{
+    height: 700px;
+  }
+}
+@media screen and (min-width:1200px) {
 }
 .container{
   position: absolute;
-  top: 30%;
-  box-shadow: 2px 10px 35px 1px rgba(153, 153, 153, 0.3);
-;}
+  height: 200px
+;
+}
 .accordtop{
 float: right;
-margin-top: -590px;
-margin-right: 30px;
+margin-right: 40px;
+margin-top: 20px;
 }
 .accordtop1{
-  margin-left: 30px;
+  margin-left: 40px;
+  margin-top: 80px;
+}
+@media screen and (max-width: 767px) {
+  .accordtop{
+    display: none;
+  }
+}
+@media screen and (max-width: 767px) {
+  .accordtop1{
+    display: none;
+  }
 }
 .wrap {
 background-color: white;
