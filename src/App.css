@@ -33,7 +33,7 @@ a:hover {
 
 .overlay {
   height: 0%;
-  width: 50%;
+  width: 70%;
   position: fixed;
   float: right;
   right: 0;
@@ -73,7 +73,7 @@ a:hover {
 
 .overlay .closebtn {
   position: absolute;
-  top: 20px;
+  top: 70px;
   right: 45px;
   font-size: 60px;
 }
