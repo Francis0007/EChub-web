@@ -1200,6 +1200,17 @@ a {
   }
 }
 @media screen and (min-width:1200px) {
+  .accordmobile1{
+    display: none;
+  }
+}
+.topofaccord{
+  text-align: center;
+}
+@media screen and (max-width: 767px) {
+  .topofaccord{
+    margin-left: 0px;
+  }
 }
 .container{
   position: absolute;

@@ -20,7 +20,7 @@ const Accordion = () => {
 
  return (
  <> 
- <h1 style={{ marginTop: '30px', fontSize: '28px', textAlign: 'center'}}>Frequently Asked Questions</h1>
+ <h1 className='topofaccord' style={{ marginTop: '30px', fontSize: '28px',}}>Frequently Asked Questions</h1>
  <div className='accordtop1'>
     <IconContext.Provider value={{ color: 'black', size: '16px' }}>
       <div className='accordionSection'>
