@@ -44,7 +44,7 @@ const Section3 = () => {
             <h1 className="section3textontop3">HIRE ECHUB FOR YOUR FACILITY
               MAINTENANCE/<br />MANAGEMENT AND GET 80% STRESS OFF YOUR <br />SHOULDER
               OR WE WORK FOR FREE!!!
-            </h1></center><br /></div>
+            </h1></center></div>
         {/*end of section3*/}
        
 </>
