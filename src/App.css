@@ -945,7 +945,6 @@ a {
   overflow-x: auto;
   background-color: transparent;
   white-space: nowrap;
-  margin-left: 20px;
   margin-top: -50px;
 }
 @media screen and (max-width: 767px) {
