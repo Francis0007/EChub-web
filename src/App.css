@@ -1193,7 +1193,9 @@ a {
 }
 @media screen and (max-width: 767px) {
   .accordionSection{
-    height: 700px;
+    height: 750px;
+    width: 100%;
+    margin-left: -7px;
   }
 }
 @media screen and (min-width:1200px) {
@@ -1242,7 +1244,7 @@ background-color: white;
   width: 100%;
   cursor: pointer;
 }
- .section55 {
+h1 {
     padding: 10px;
     font-size: 15px;
     margin-left:20px;
@@ -1260,6 +1262,7 @@ background-color: white;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 100%;
 }
 
   p {

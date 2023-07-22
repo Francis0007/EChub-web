@@ -30,7 +30,7 @@ const Accordion = () => {
               <>
               
                 <div className="wrap" onClick={() => toggle(index)} key={index} >
-                  <h1 className='section55'>{item.question}</h1>
+                  <h1>{item.question}</h1>
                   <span1>{clicked === index ? <FiMinus /> : <FiPlus />}</span1>
                 </div><hr />
                 {clicked === index ? (

@@ -40,10 +40,10 @@ const Section3 = () => {
               </div></a>
           </div>
           <br />
-            <h1 className="section3textontop3">HIRE ECHUB FOR YOUR FACILITY
+            <h2 className="section3textontop3">HIRE ECHUB FOR YOUR FACILITY
               MAINTENANCE/<br />MANAGEMENT AND GET 80% STRESS OFF YOUR <br />SHOULDER
               OR WE WORK FOR FREE!!!
-            </h1></div>
+            </h2></div>
         {/*end of section3*/}
        
 </>
