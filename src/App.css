@@ -6,10 +6,10 @@ body {
   overflow-x: hidden;
   width: 100%;
 }
-@media screena and (max-width: 767px) {
+@media screen and (max-width: 767px) {
   body {
     align-items: center;
-    width: 420px;
+    width: 100%;
   }
 }
 a {
@@ -196,7 +196,6 @@ span {
 @media screen and (max-width: 767px) {
   .message {
     left: 78.17%;
-    right: 0%;
     top: 85%;
     position: fixed;
   }
@@ -876,7 +875,7 @@ a {
 @media screen and (max-width: 767px) {
   .textonsection {
     margin-top: 20px;
-    margin-left: 8%;
+    margin-left: 7%;
     width: 350px;
   }
 }

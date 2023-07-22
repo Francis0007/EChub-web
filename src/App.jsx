@@ -62,6 +62,7 @@ function App() {
         </div>
         <Section />
         <Section1 />
+        <Section2 />
     </>
   )
 }
