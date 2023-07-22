@@ -40,6 +40,7 @@ function App() {
             <a href="waitinglist.html">Contact Us</a>
             <a href="waitinglist.html">Blog</a>
             <a href="waitinglist.html">FAQS</a>
+            <a href=" waitinglist.html"><div className="buttononnavbarr">Get Started</div></a>
           </div>
         </div>
         <div className="navbar">

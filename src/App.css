@@ -50,9 +50,9 @@ a:hover {
 
 .overlay-content {
   position: relative;
-  top: 25%;
+  top: 20%;
   width: 100%;
-  margin-top: 30px;
+  margin-top: 0px;
   margin-left: 30px;
 }
 .text2{
@@ -66,6 +66,7 @@ a:hover {
   color: black;
   display: block;
   transition: 0.3s;
+  margin-top: 15px;
 }
 .active {
   color: white;
@@ -163,6 +164,20 @@ spann {
   color: white;
 }
 .buttononnavbar:hover {
+  background-color: #1183d6;
+}
+.buttononnavbarr {
+  background-color: #085bda;
+  padding: 10px;
+  border-radius: 5px 5px 5px 5px;
+  color: white;
+  width: 340px;
+  text-align: center;
+  font-size: 23px;
+  margin-top: 15px;
+  margin-right: 10px;
+}
+.buttononnavbarr:hover {
   background-color: #1183d6;
 }
 .rightnavbar {
@@ -1219,11 +1234,11 @@ a {
 }
 .accordtop{
 float: right;
-margin-right: 40px;
+margin-right: 120px;
 margin-top: 20px;
 }
 .accordtop1{
-  margin-left: 40px;
+  margin-left: 120px;
   margin-top: 80px;
 }
 @media screen and (max-width: 767px) {

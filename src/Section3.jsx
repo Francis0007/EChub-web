@@ -11,7 +11,7 @@ const Section3 = () => {
   return (
 <>
 {/*section3*/}
-<div className="section3"><br />
+<div className="section3"><br /><center>
           <h3>Services</h3>
           <div className="topnavv">
             <a href="waitinglist.html">           
@@ -40,10 +40,11 @@ const Section3 = () => {
               </div></a>
           </div>
           <br />
-            <h2 className="section3textontop3">HIRE ECHUB FOR YOUR FACILITY
+           <h2 className="section3textontop3">HIRE ECHUB FOR YOUR FACILITY
               MAINTENANCE/<br />MANAGEMENT AND GET 80% STRESS OFF YOUR <br />SHOULDER
               OR WE WORK FOR FREE!!!
-            </h2></div>
+            </h2></center>
+           </div>
         {/*end of section3*/}
        
 </>
