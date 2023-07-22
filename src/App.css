@@ -1154,7 +1154,7 @@ a {
 @media screen and (min-width: 1200px) {
   .section5 {
     margin-top: -50px;
-    height: 800px;
+    height: max-content;
   }
 }
 @media screen and (max-width: 767px) {
@@ -1246,7 +1246,7 @@ background-color: white;
 }
 h1 {
     padding: 10px;
-    font-size: 15px;
+    font-size: 13px;
     margin-left:20px;
   }
 
