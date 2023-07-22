@@ -892,6 +892,7 @@ a {
 @media screen and (max-width: 767px) {
   .section3 {
     height: 600px;
+    width: 100%;
   }
 }
 .section3textontop {
