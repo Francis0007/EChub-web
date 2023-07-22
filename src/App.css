@@ -95,7 +95,7 @@ a:hover {
     right: 35px;
   }
 }
-span {
+spann {
   font-size: 30px;
   cursor: pointer;
   color: black;
@@ -103,11 +103,11 @@ span {
   margin-left: 20px;
 }
 @media screen and (max-width: 767px) {
-  span {
+  spann {
     display: block;
     color: black;
     margin-top: -15px;
-    margin-right: -40px;
+    margin-right: -60px;
   }
 }
 
