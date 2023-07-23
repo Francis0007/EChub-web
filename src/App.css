@@ -62,7 +62,7 @@ a:hover {
 .overlay a {
   padding: 8px;
   text-decoration: none;
-  font-size: 36px;
+  font-size: 23px;
   color: black;
   display: block;
   transition: 0.3s;
@@ -218,13 +218,13 @@ spann {
 
 /*section*/
 .box {
-  font-size: 40px;
+  font-size: 60px;
   font-weight: 700;
   opacity: 0;
   position: absolute;
   text-align: center;
   align-items: center;
-  margin-top: 15px;
+  margin-top: -10px;
 }
 @media screen and (max-width: 767px) {
   .box {
@@ -236,17 +236,33 @@ spann {
   }
 }
 .text-wrapper{
- margin-left: 450px;
- margin-top: -30px;
+ margin-left: 300px;
+ margin-top: -40px;
 }
 @media screen and (max-width: 767px) {
   .text-wrapper{
     margin-left: 13px;
-    margin-top: 20px;
+    margin-top: -10px;
   }
 }
 .b1 {
   animation: ani1 15s infinite;
+  margin-left: 65px;
+}
+@media screen and (max-width: 767px) {
+  .b1 {
+    margin-left: -30px;
+  } 
+}
+@media screen and (min-width: 1200px) {
+  .b2 {
+    margin-left: 50px;
+  } 
+}
+@media screen and (min-width: 1200px) {
+  .b3 {
+    margin-left: 50px;
+  } 
 }
 .b2 {
   animation: ani2 15s infinite;
@@ -256,7 +272,7 @@ spann {
 }
 .b4 {
   animation: ani4 15s infinite;
-  margin-left: 50px;
+  margin-left: 190px;
 }
 @media screen and (max-width: 767px) {
   .b4{
@@ -459,7 +475,7 @@ input[type="search"]:focus {
 }
 .textonbottomofhomescreen1 {
   display: flex;
-  margin-left: 0px;
+  margin-left: 700px;
 }
 @media screen and (max-width: 767px) {
   .textonbottomofhomescreen1 {
@@ -472,6 +488,7 @@ input[type="search"]:focus {
   display: flex;
   margin-top: 140px;
   margin-left: 20px;
+  width: 100%;
 }
 @media screen and (max-width: 767px) {
   .textonbottomofhomescreen {
@@ -594,7 +611,7 @@ a {
 
 .textonsection1 {
   display: flex;
-  margin-left: 40px;
+  margin-left: 20px;
   margin-top: 20px;
 }
 @media screen and (max-width: 767px) {
@@ -1235,7 +1252,7 @@ a {
 .accordtop{
 float: right;
 margin-right: 120px;
-margin-top: 20px;
+margin-top: -80px;
 }
 .accordtop1{
   margin-left: 120px;
@@ -1294,7 +1311,7 @@ footer {
   background-color: black;
   color: white;
   display: flex;
-  height: 300px;
+  height: 320px;
   width: 100%;
 }
 @media screen and (max-width: 767px) {
@@ -1329,7 +1346,7 @@ hr {
 }
 .footercontent2 {
   display: inline-block;
-  line-height: 25px;
+  line-height: 30px;
   color: white;
 }
 
@@ -1366,7 +1383,7 @@ hr {
 }
 .footercontent3 {
   display: inline-block;
-  line-height: 25px;
+  line-height: 30px;
   color: white;
 }
 .footercontent33 {
@@ -1406,7 +1423,7 @@ hr {
 }
 .footercontent4 {
   display: inline-block;
-  line-height: 25px;
+  line-height: 30px;
   margin-left: 70px;
   color: white;
 }

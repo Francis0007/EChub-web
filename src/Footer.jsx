@@ -60,7 +60,7 @@ const Footer = () => {
               <a className="fa fa-facebook" />
               <a className="fa fa-linkedin" />
               <a className="fa fa-twitter" />
-              <a className="fa fa-instagram" /></div><br />
+              <a className="fa fa-instagram" /></div><br /><br /><br />
               <a style={{marginLeft: '20px',marginTop: '30px'}}>Echubafrica@gmail.com</a><br />
               <a style={{marginLeft: '20px'}} href='tel:08148143284'>08148143284</a><br /><br />
               <a style={{marginLeft: '20px'}}>66 Ibukun Olu St, Akoka 102216, Lagos</a><br />
