@@ -61,7 +61,7 @@ function App() {
         </div>
         {/*end of Navbar*/}
         </div>
-  
+        <Section />
         <Section1 />
         <Section2 />
         <Section3 />

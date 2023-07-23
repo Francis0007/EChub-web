@@ -229,7 +229,6 @@ spann {
 @media screen and (max-width: 767px) {
   .box {
     font-size: 27px;
-    margin-left: 0px;
     text-align: center;
     text-align: center;
     width: 360px;
@@ -241,17 +240,21 @@ spann {
 }
 @media screen and (max-width: 767px) {
   .text-wrapper{
-    margin-left: 13px;
+    margin-left: 0px;
     margin-top: -10px;
   }
 }
 .b1 {
   animation: ani1 15s infinite;
-  margin-left: 65px;
 }
 @media screen and (max-width: 767px) {
   .b1 {
-    margin-left: -30px;
+    margin-left: 0px;
+  } 
+}
+@media screen and (min-width: 1200px) {
+  .b1 {
+    margin-left: 65px;
   } 
 }
 @media screen and (min-width: 1200px) {
