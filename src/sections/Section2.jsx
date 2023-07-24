@@ -1,12 +1,12 @@
 import React from 'react';
-import './App.css';
-import checkcircle1 from './images/checkcircle1.svg';
-import un2 from './images/un2.svg';
-import un from './images/un.svg';
-import engineering from './images/engineering.png';
-import manage_accounts from './images/manage_accounts.png';
-import summarize from './images/summarize.png';
-import verified from './images/verified.png';
+import '../App.css';
+import checkcircle1 from '../images/checkcircle1.svg';
+import un2 from '../images/un2.svg';
+import un from '../images/un.svg';
+import engineering from '../images/engineering.png';
+import manage_accounts from '../images/manage_accounts.png';
+import summarize from '../images/summarize.png';
+import verified from '../images/verified.png';
 
 
 const Section2 = () => {

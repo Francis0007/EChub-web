@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
-import { Data } from './Data';
-import { mobiledata } from './mobiledata';
+import { Data } from '../resourcesforlandingpage/Data';
+import { mobiledata } from '../resourcesforlandingpage/mobiledata';
 import { IconContext } from 'react-icons';
 import { FiPlus, FiMinus } from 'react-icons/fi';
-import './App.css';
-import Accord from './Accord.jsx';
+import '../App.css';
+import Accord from '../resourcesforlandingpage/Accord';
 
 const Accordion = () => {
   const [clicked, setClicked] = useState(false);

@@ -1,9 +1,9 @@
 import React from 'react';
-import './App.css';
-import ec1 from './images/ec1.png';
-import Plumbing from './images/Plumbing.png';
-import Carpentry from './images/Carpentry.png';
-import Electronicsandgadgets from './images/Electronicsandgadgets.png';
+import '../App.css';
+import ec1 from '../images/ec1.png';
+import Plumbing from '../images/Plumbing.png';
+import Carpentry from '../images/Carpentry.png';
+import Electronicsandgadgets from '../images/Electronicsandgadgets.png';
 
 
 

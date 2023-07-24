@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Data1 } from './Data1';
 import { IconContext } from 'react-icons';
 import { FiPlus, FiMinus } from 'react-icons/fi';
-import './App.css'
+import '../App.css'
 
 const Accordion = () => {
   const [clicked, setClicked] = useState(false);

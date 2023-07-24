@@ -1,20 +1,20 @@
 import React from 'react';
-import './App.css';
-import stars from './images/stars.svg';
-import logo22 from './images/logo22.png';
-import bll from './images/bll.png';
-import blll from './images/blll.png';
-import logo_012 from './images/logo_012.png';
-import Layer_x0020_13 from './images/Layer_x0020_13.png';
-import logo13 from './images/logo13.png';
-import nieee11 from './images/nieee11.png';
+import '../App.css';
+import stars from '../images/stars.svg';
+import logo22 from '../images/logo22.png';
+import bll from '../images/bll.png';
+import blll from '../images/blll.png';
+import logo_012 from '../images/logo_012.png';
+import Layer_x0020_13 from '../images/Layer_x0020_13.png';
+import logo13 from '../images/logo13.png';
+import nieee11 from '../images/nieee11.png';
 
-import divi from './images/divi.png';
-import images from './images/images.png';
-import Technology from './images/Technology.jpg';
-import echub from './images/echub.png';
-import penneelogo1 from './images/penneelogo1.svg';
-import bsks from './images/bsks.jpg';
+import divi from '../images/divi.png';
+import images from '../images/images.png';
+import Technology from '../images/Technology.jpg';
+import echub from '../images/echub.png';
+import penneelogo1 from '../images/penneelogo1.svg';
+import bsks from '../images/bsks.jpg';
 
 
 

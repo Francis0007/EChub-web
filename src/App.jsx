@@ -1,11 +1,11 @@
 import React from 'react';
-import Section from './Section.jsx'
-import Section1 from './Section1.jsx'
-import Section2 from './Section2.jsx'
-import Section3 from './Section3.jsx'
-import Section4 from './Section4.jsx'
-import Section5 from './Section5.jsx'
-import Footer from './Footer.jsx'
+import Section from './sections/Section.jsx'
+import Section1 from './sections/Section1.jsx'
+import Section2 from './sections/Section2.jsx'
+import Section3 from './sections/Section3.jsx'
+import Section4 from './sections/Section4.jsx'
+import Section5 from './sections/Section5.jsx'
+import Footer from './sections/Footer.jsx'
 import './App.css';
 import blaa1 from './images/blaa1.svg';
 

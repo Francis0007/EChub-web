@@ -1,7 +1,7 @@
 import React from 'react';
-import './App.css';
-import playcircle from './images/playcircle.svg';
-import checkcircle1 from './images/checkcircle1.svg';
+import '../App.css';
+import playcircle from '../images/playcircle.svg';
+import checkcircle1 from '../images/checkcircle1.svg';
 
 
 
