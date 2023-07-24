@@ -1,38 +1,31 @@
 import React from 'react';
-import Section from './sections/Section.jsx'
-import Section1 from './sections/Section1.jsx'
-import Section2 from './sections/Section2.jsx'
-import Section3 from './sections/Section3.jsx'
-import Section4 from './sections/Section4.jsx'
-import Section5 from './sections/Section5.jsx'
-import Footer from './sections/Footer.jsx'
-import './App.css';
-import blaa1 from './images/blaa1.svg';
-import Home from './sections/Home.jsx';
+import '../App.css';
+import blaa1 from '../images/blaa1.svg';
+import Section from './Section.jsx';
+import Section1 from './Section1.jsx';
+import Section2 from './Section2.jsx';
+import Section3 from './Section3.jsx';
+import Section4 from './Section4.jsx';
+import Section5 from './Section5.jsx';
+import Footer from './Footer.jsx';
 
 
 
-function App() {
-
-  function openNav() {
-    document.getElementById("myNav").style.height = "100%";
-  }
+    function openNav() {
+      document.getElementById("myNav").style.height = "100%";
+    }
+    
+    function closeNav() {
+      document.getElementById("myNav").style.height = "0%";
+    }
   
-  function closeNav() {
-    document.getElementById("myNav").style.height = "0%";
-  }
-
-
-  function openNav() {
-    document.getElementById("myNav").style.height = "100%";
-  }
   
-  function closeNav() {
-    document.getElementById("myNav").style.height = "0%";
-  }
+
+
+const Home = () => {
   return (
-    <>
-  <div>
+<>
+<div>
         {/*Navbar*/}
         <div id="myNav" className="overlay">
           <a href="javascript:void(0)" className="closebtn" onClick={closeNav}>×</a>
@@ -42,7 +35,7 @@ function App() {
             <a href="waitinglist.html">Contact Us</a>
             <a href="waitinglist.html">Blog</a>
             <a href="waitinglist.html">FAQS</a>
-            <a href=" waitinglist.html"><div className="buttononnavbarr">Get Started</div></a>
+            <Link to='#'><div className="buttononnavbarr">Get Started</div></Link>
           </div>
         </div>
         <div className="navbar">
@@ -70,8 +63,7 @@ function App() {
         <Section4 />
         <Section5 />
         <Footer />
-    </>
+</>
   )
 }
-
-export default App;
+export default Home;

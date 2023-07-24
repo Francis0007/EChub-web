@@ -57,7 +57,7 @@ const Section4 = () => {
               </a>     
               <a>
                 <div className="remarks">
-                  <div className="imageonremark">
+                  <div className="imageonremark1">
                   </div><br /><br /><br />
                   <h2>Matthias</h2>
                   <p>Real Estate developer</p>
@@ -74,7 +74,7 @@ const Section4 = () => {
               </a>
               <a>
                 <div className="remarks">
-                  <div className="imageonremark">
+                  <div className="imageonremark2">
                   </div><br /><br /><br />
                   <h2>Sarah</h2>
                   <p>Homeowner</p>

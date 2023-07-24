@@ -1098,7 +1098,33 @@ a {
   border-radius: 50%;
   width: 80px;
   height: 80px;
-  background-color: grey;
+  background-image: url('images/brian-tromp-zG2slHhRIBg-unsplash.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: -36px;
+  align-items: center;
+  position: absolute;
+  margin-left: 190px;
+}
+.imageonremark1 {
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  background-image: url('images/olawale-munna-oXzyPakqsA0-unsplash.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: -36px;
+  align-items: center;
+  position: absolute;
+  margin-left: 190px;
+}
+.imageonremark2{
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  background-image: url('images/etty-fidele-AzVexpHvuKY-unsplash.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
   margin-top: -36px;
   align-items: center;
   position: absolute;
