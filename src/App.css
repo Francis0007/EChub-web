@@ -236,15 +236,15 @@ spann {
 }
 .text-wrapper{
  margin-top: -40px;
+ margin-left: 270px;
 }
 @media screen and (max-width: 767px) {
   .text-wrapper{
     margin-top: -10px;
+    margin-left: 0px;
   }
 }
-.b1 {
-  animation: ani1 15s infinite;
-}
+
 @media screen and (max-width: 767px) {
   .b1 {
     margin-left: 40px;
@@ -261,13 +261,18 @@ spann {
   } 
 }
 @media screen and (max-width: 767px) {
+  .b4{
+    margin-left: 40px;
+  }
+}
+@media screen and (max-width: 767px) {
   .b5 {
     margin-left: 35px;
   } 
 }
 @media screen and (min-width: 1200px) {
   .b1 {
-    margin-left: 65px;
+    margin-left: 85px;
   } 
 }
 @media screen and (min-width: 1200px) {
@@ -285,6 +290,9 @@ spann {
     margin-left: 190px;
   } 
 }
+.b1 {
+  animation: ani1 15s infinite;
+}
 .b2 {
   animation: ani2 15s infinite;
 }
@@ -293,11 +301,6 @@ spann {
 }
 .b4 {
   animation: ani4 15s infinite;
-}
-@media screen and (max-width: 767px) {
-  .b4{
-    margin-left: 40px;
-  }
 }
 .b5 {
   animation: ani5 15s infinite;
