@@ -12,10 +12,8 @@ const Section = () => {
         <div className="section">
           <div className="sectioncontent"><br /><br /><br /><br /><br /><br /><br /><br />
             <div className="sectioncontent1">
-              <h5>
                 The work is on us 
                 The focus is you
-              </h5>
             </div>       
             <div className="sectioncontent2">
               <h2>Tap into a pool of skilled,<br />  vetted, tested and qualified<br />  technical talents for </h2>
