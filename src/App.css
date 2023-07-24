@@ -372,7 +372,6 @@ spann {
   background-repeat: no-repeat;
   background-size: cover;
   height: 700px;
-  width: 100%;
   text-align: center;
   align-items: center;
 }
@@ -380,7 +379,6 @@ spann {
   .sectioncontent {
     flex-direction: column;
     height: 720px;
-    width: 100%;
     background-image: url("images/unknown12.svg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -508,7 +506,6 @@ input[type="search"]:focus {
   display: flex;
   margin-top: 140px;
   margin-left: 20px;
-  width: 100%;
 }
 @media screen and (max-width: 767px) {
   .textonbottomofhomescreen {
