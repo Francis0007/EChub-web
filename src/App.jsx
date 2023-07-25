@@ -1,75 +1,25 @@
 import React from 'react';
-import Section from './sections/Section.jsx'
-import Section1 from './sections/Section1.jsx'
-import Section2 from './sections/Section2.jsx'
-import Section3 from './sections/Section3.jsx'
-import Section4 from './sections/Section4.jsx'
-import Section5 from './sections/Section5.jsx'
-import Footer from './sections/Footer.jsx'
+import { Route, Routes} from "react-router-dom";
+import Section from './sections/Section.jsx';
+import Waitlist from './waitlist/Waitlist.jsx';
+import Faq from './sections/Section5.jsx';
 import './App.css';
-import blaa1 from './images/blaa1.svg';
-import Home from './sections/Home.jsx';
+import Navbar from './sections/Navbar.jsx';
+import Waitlistform from './waitlist/Waitlistform.jsx';
 
 
 
 function App() {
 
-  function openNav() {
-    document.getElementById("myNav").style.height = "100%";
-  }
-  
-  function closeNav() {
-    document.getElementById("myNav").style.height = "0%";
-  }
-
-
-  function openNav() {
-    document.getElementById("myNav").style.height = "100%";
-  }
-  
-  function closeNav() {
-    document.getElementById("myNav").style.height = "0%";
-  }
   return (
     <>
-  <div>
-        {/*Navbar*/}
-        <div id="myNav" className="overlay">
-          <a href="javascript:void(0)" className="closebtn" onClick={closeNav}>×</a>
-          <div className="overlay-content">
-            <a href="waitinglist.html">About Us</a>
-            <a href="waitinglist.html">Services</a>
-            <a href="waitinglist.html">Contact Us</a>
-            <a href="waitinglist.html">Blog</a>
-            <a href="waitinglist.html">FAQS</a>
-            <a href=" waitinglist.html"><div className="buttononnavbarr">Get Started</div></a>
-          </div>
-        </div>
-        <div className="navbar">
-          <div className="leftnavber">
-            <img src={blaa1} style={{height: '39.32389450073242px', width: '122.71342468261719px', borderRadius: '0px', marginTop: '37px'}} />
-            <div className="linksonnavbar">
-              <a href="waitinglist.html">About Us</a>
-              <a href="waitinglist.html">Services</a>
-              <a href="waitinglist.html">Contact Us</a>
-              <a href="waitinglist.html">Blog</a>
-              <a href="waitinglist.html">FAQS</a>
-            </div>
-          </div>
-          <div className="rightnavbar">
-            <a href=" waitinglist.html"><div className="buttononnavbar">Get Started</div></a>
-            <spann onClick={openNav}>☰</spann>
-          </div>
-        </div>
-        {/*end of Navbar*/}
-        </div>
-        <Section />
-        <Section1 />
-        <Section2 />
-        <Section3 />
-        <Section4 />
-        <Section5 />
-        <Footer />
+        <Navbar />
+        <Routes>        
+        <Route path="/" element={<Section />} /> 
+        <Route path="/waitlist" element={<Waitlist />} />
+        <Route path="/faq" element={<Faq />} />
+        <Route path="/waitlistform" element={<Waitlistform />} />
+        </Routes>
     </>
   )
 }

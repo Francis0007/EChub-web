@@ -2,6 +2,12 @@ import React from 'react';
 import '../App.css';
 import playcircle from '../images/playcircle.svg';
 import onk1 from '../images/onk1.svg';
+import Section1 from './Section1.jsx';
+import Section2 from './Section2.jsx';
+import Section3 from './Section3.jsx';
+import Section4 from './Section4.jsx';
+import Section5 from './Section5.jsx';
+import Footer from './Footer.jsx';
 
 
 
@@ -34,6 +40,12 @@ const Section = () => {
                   <div className="message"><img src={onk1}height="39.75757598876953px;" width="32px;" left="16px;" top="512.121337890625px;" border-radius="0px;" style={{position: 'fixed', marginLeft: '-15px', marginTop: '13px'}} /></div>
                 </div></a></div></div></div>
         {/*end of section*/}
+        <Section1 />
+        <Section2 />
+        <Section3 />
+        <Section4 />
+        <Section5 />
+        <Footer />
 </>
   )
 }

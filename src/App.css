@@ -1264,7 +1264,7 @@ a {
   justify-content: center;
   position: relative;
   height: 300px;
-  background: #fff;
+  background-color: #fff;
   width: 400px;
 }
 @media screen and (max-width: 767px) {
@@ -1300,6 +1300,7 @@ margin-top: -80px;
 .accordtop1{
   margin-left: 120px;
   margin-top: 80px;
+  background-color: white;
 }
 @media screen and (max-width: 767px) {
   .accordtop{
