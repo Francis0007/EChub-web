@@ -38,7 +38,7 @@ const Section = () => {
               <div className="textonbottomofhomescreen1">
               <Link to='/waitlist'><div className="text2"><img src={playcircle} /></div></Link>
               <Link to='/waitlist'> <div className="button2">Our vision for you</div></Link>
-                  <div  className="message"><img href="https://wa.me/message/ITOTKHYYO62KP1" src={onk1}height="39.75757598876953px;" width="32px;" left="16px;" top="512.121337890625px;" border-radius="0px;" style={{position: 'fixed', marginLeft: '-15px', marginTop: '13px'}} /></div>
+                  <a  href="https://wa.me/message/ITOTKHYYO62KP1"><div className="message"><img src={onk1}height="39.75757598876953px;" width="32px;" left="16px;" top="512.121337890625px;" border-radius="0px;" style={{position: 'fixed', marginLeft: '-15px', marginTop: '13px'}} /></div></a>
                 </div></div></div></div>
         {/*end of section*/}
        <Section1 />
