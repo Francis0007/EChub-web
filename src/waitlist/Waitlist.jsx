@@ -23,10 +23,10 @@ const Waitlist = () => {
           <p id="content2">3. Get Ready to Transform: Once we launch, you'll have access to EChub game-changing features.</p>
          <h1 id="showcase">*Join the Revolution*</h1>
           <Link to='/waitlistform'><div className="btn">STEP INSIDE</div></Link>
-          <a className="fa fa-facebook" />
-              <a className="fa fa-linkedin" />
-              <a className="fa fa-twitter" />
-              <a className="fa fa-instagram" />
+          <a href="https://www.facebook.com/echubafrica/"   className="fa fa-facebook" />
+              <a href="https://www.linkedin.com/company/echub-africa"   className="fa fa-linkedin" />
+              <a href="https://twitter.com/Echubafrica?s=09" className="fa fa-twitter" />
+              <a href="https://wa.me/message/ITOTKHYYO62KP1" className="fa fa-instagram" />
               <p>Follow us on social media for exciting updates and sneak peeks!</p>
               <p>© 2023 EChub. All rights reserved.</p>
               <p>At EChub we believe nobody deserves to see shege from local technicians</p><br />

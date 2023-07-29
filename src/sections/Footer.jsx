@@ -45,10 +45,10 @@ const Footer = () => {
               <a href='tel:08148143284'>08148143284</a><br /><br />
               <a>66 Ibukun Olu St, Akoka 102216,<br /> Lagos</a><br />
             </div></div>
-          <a className="fa fa-facebook" />
-          <a className="fa fa-linkedin" />
-          <a className="fa fa-twitter" />
-          <a className="fa fa-instagram" />
+            <a href="https://www.facebook.com/echubafrica/"   className="fa fa-facebook" />
+              <a href="https://www.linkedin.com/company/echub-africa"   className="fa fa-linkedin" />
+              <a href="https://twitter.com/Echubafrica?s=09" className="fa fa-twitter" />
+              <a href="https://wa.me/message/ITOTKHYYO62KP1" className="fa fa-instagram" />
 
         </footerf>
         {/*end of mobile footer*/}
@@ -57,10 +57,10 @@ const Footer = () => {
           <div className="leftfooter">
             <div className="textonbottom">Blue Collar</div>
             <div className="socialsonfooter">
-              <a className="fa fa-facebook" />
-              <a className="fa fa-linkedin" />
-              <a className="fa fa-twitter" />
-              <a className="fa fa-instagram" /></div><br /><br /><br />
+              <a href="https://www.facebook.com/echubafrica/"   className="fa fa-facebook" />
+              <a href="https://www.linkedin.com/company/echub-africa"   className="fa fa-linkedin" />
+              <a href="https://twitter.com/Echubafrica?s=09" className="fa fa-twitter" />
+              <a href="https://wa.me/message/ITOTKHYYO62KP1" className="fa fa-instagram" /></div><br /><br /><br />
               <a style={{marginLeft: '20px',marginTop: '30px'}}>Echubafrica@gmail.com</a><br />
               <a style={{marginLeft: '20px'}} href='tel:08148143284'>08148143284</a><br /><br />
               <a style={{marginLeft: '20px'}}>66 Ibukun Olu St, Akoka 102216, Lagos</a><br />
