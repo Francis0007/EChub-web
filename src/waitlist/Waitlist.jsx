@@ -29,7 +29,7 @@ const Waitlist = () => {
               <a className="fa fa-instagram" />
               <p>Follow us on social media for exciting updates and sneak peeks!</p>
               <p>© 2023 EChub. All rights reserved.</p>
-              <p>At EChub we believe nobody deserves to see shege from local technicians</p>
+              <p>At EChub we believe nobody deserves to see shege from local technicians</p><br />
         </div>
         </div>
 </>
