@@ -1,5 +1,5 @@
 import React from 'react';
-import './waitlist.css';
+import './Waitlist.css';
 import { Link } from 'react-router-dom';
 
 
