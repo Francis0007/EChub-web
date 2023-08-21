@@ -34,7 +34,7 @@ const Section3 = () => {
               </div></a>
             <a href="waitinglist.html" style={{marginRight: '20px'}}>           
               <div className="sec3boxes" style={{backgroundColor: '#C1D6F6'}}>
-                <h2>Electriconics &amp; Gadgets</h2>
+                <h2>Electronics &amp; Gadgets</h2>
                 <img src={Electronicsandgadgets} width="300px" height="270px" style={{borderRadius: '0px 0px 20px 20px', marginTop: '20.3240966796875px', marginLeft: '0px'}} />
                 <div className="buttononsection3boxes" style={{backgroundColor: '#085BDA'}}>Explore &gt;</div>
               </div></a>
