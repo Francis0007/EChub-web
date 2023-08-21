@@ -38,7 +38,7 @@ const Navbar = () => {
         </div>
         <div className="navbar">
           <div className="leftnavber">
-            <img src={blaa1} style={{height: '39.32389450073242px', width: '122.71342468261719px', borderRadius: '0px', marginTop: '37px'}} />
+            <Link to="/waitlist"><img src={blaa1} style={{height: '39.32389450073242px', width: '122.71342468261719px', borderRadius: '0px', marginTop: '37px'}} /></Link>
             <div className="linksonnavbar">
             <Link to="/">Home</Link>
               <Link to="/waitlist">About Us</Link>
@@ -49,7 +49,7 @@ const Navbar = () => {
             </div>
           </div>
           <div className="rightnavbar">
-            <a href=" waitinglist.html"><div className="buttononnavbar">Get Started</div></a>
+            <a href="/waitlist"><div className="buttononnavbar">Get Started</div></a>
             <spann onClick={openNav}>☰</spann>
           </div>
         </div>
